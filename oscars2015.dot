@@ -1,5 +1,9 @@
 digraph {
-overlap=scale;
+
+// neato -Tpng oscars2015.dot >  neat.png
+// fdp -Tpng ......
+
+overlap=scalexy;
 splines=true;
 
 picture->AMERICAN_SNIPER;
