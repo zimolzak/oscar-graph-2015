@@ -15,3 +15,5 @@ Alternate layout engine:
 
     neato -Tpng oscars2015.dot > neato.png
 
+![oscar graph output](https://dl.dropboxusercontent.com/u/38640281/github_img/oscars_graph.png)
+
