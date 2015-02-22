@@ -1,135 +1,135 @@
 digraph {
-picture -> AMERICAN_SNIPER
-picture -> BIRDMAN
-picture -> BOYHOOD
-picture -> THE_GRAND_BUDAPEST_HOTEL
-picture -> THE_IMITATION_GAME
-picture -> SELMA
-picture -> THE_THEORY_OF_EVERYTHING
-picture -> WHIPLASH
-}
+picture->AMERICAN_SNIPER
+picture->BIRDMAN
+picture->BOYHOOD
+picture->GRAND_BUDAPEST_HOTEL
+picture->IMITATION_GAME
+picture->SELMA
+picture->THEORY_OF_EVERYTHING
+picture->WHIPLASH
 
-// actor
-// FOXCATCHER
-// AMERICAN SNIPER
-// THE IMITATION GAME
-// BIRDMAN OR (THE UNEXPECTED VIRTUE OF IGNORANCE)
-// theory of everything
-// 
-// supporting actor
-// THE JUDGE
-// BOYHOOD
-// BIRDMAN OR (THE UNEXPECTED VIRTUE OF IGNORANCE)
-// FOXCATCHER
-// WHIPLASH
-// 
-// actress
-// TWO DAYS, ONE NIGHT
-// THE THEORY OF EVERYTHING
-// STILL ALICE
-// GONE GIRL
-// WILD
-// 
-// supporting actress
-// BOYHOOD
-// WILD
-// THE IMITATION GAME
-// BIRDMAN
-// into the woods
-// 
-// animated
-// BIG HERO 6
-// THE BOXTROLLS
-// HOW TO TRAIN YOUR DRAGON 2
-// SONG OF THE SEA
-// THE TALE OF THE PRINCESS KAGUYA
-// 
-// cinematog
-// BIRDMAN
-// THE GRAND BUDAPEST HOTEL
-// IDA
-// MR. TURNER
-// UNBROKEN
-// 
-// costume
-// THE GRAND BUDAPEST HOTEL
-// INHERENT VICE
-// INTO THE WOODS
-// MALEFICENT
-// MR. TURNER
-// 
-// directing
-// BIRDMAN OR (THE UNEXPECTED VIRTUE OF
-// BOYHOOD
-// FOXCATCHER
-// THE GRAND BUDAPEST HOTEL
-// THE IMITATION GAME
-// 
-// editing
-// AMERICAN SNIPER
-// BOYHOOD
-// THE GRAND BUDAPEST HOTEL
-// THE IMITATION GAME
-// WHIPLASH
-// 
-// makeup
-// FOXCATCHER
-// THE GRAND BUDAPEST HOTEL
-// GUARDIANS OF THE GALAXY
-// 
-// score
-// THE GRAND BUDAPEST HOTEL
-// THE IMITATION GAME
-// INTERSTELLAR
-// MR. TURNER
-// THE THEORY OF EVERYTHING
-// 
-// song
-// THE LEGO MOVIE
-// SELMA
-// BEYOND THE LIGHTS
-// GLEN CAMPBELL...I’LL BE ME
-// BEGIN AGAIN
-// 
-// design
-// THE GRAND BUDAPEST HOTEL
-// THE IMITATION GAME
-// INTERSTELLAR
-// INTO THE WOODS
-// MR. TURNER
-// 
-// sound editing
-// AMERICAN SNIPER
-// BIRDMAN OR (THE UNEXPECTED VIRTUE OF
-// THE HOBBIT: THE BATTLE OF THE FIVE ARMIES
-// INTERSTELLAR
-// UNBROKEN
-// 
-// sound mixing
-// AMERICAN SNIPER
-// BIRDMAN OR (THE UNEXPECTED VIRTUE OF
-// INTERSTELLAR
-// UNBROKEN
-// WHIPLASH
-// 
-// effects
-// CAPTAIN AMERICA: THE WINTER SOLDIER
-// DAWN OF THE PLANET OF THE APES
-// GUARDIANS OF THE GALAXY
-// INTERSTELLAR
-// X-MEN: DAYS OF FUTURE PAST
-// 
-// adapted
-// AMERICAN SNIPER
-// THE IMITATION GAME
-// INHERENT VICE
-// THE THEORY OF EVERYTHING
-// WHIPLASH
-// 
-// original
-// BIRDMAN OR (THE UNEXPECTED VIRTUE OF
-// BOYHOOD
-// FOXCATCHER
-// THE GRAND BUDAPEST HOTEL
-// NIGHTCRAWLER
-//
+
+actor->FOXCATCHER
+actor->AMERICAN_SNIPER
+actor->IMITATION_GAME
+actor->BIRDMAN
+actor->theory_of_everything
+
+
+supporting_actor->JUDGE
+supporting_actor->BOYHOOD
+supporting_actor->BIRDMAN
+supporting_actor->FOXCATCHER
+supporting_actor->WHIPLASH
+
+
+actress->TWO_DAYS,_ONE_NIGHT
+actress->THEORY_OF_EVERYTHING
+actress->STILL_ALICE
+actress->GONE_GIRL
+actress->WILD
+
+
+supporting_actress->BOYHOOD
+supporting_actress->WILD
+supporting_actress->IMITATION_GAME
+supporting_actress->BIRDMAN
+supporting_actress->into_the_woods
+
+
+animated->BIG_HERO_6
+animated->BOXTROLLS
+animated->HOW_TO_TRAIN_YOUR_DRAGON_2
+animated->SONG_OF_SEA
+animated->TALE_OF_PRINCESS_KAGUYA
+
+
+cinematog->BIRDMAN
+cinematog->GRAND_BUDAPEST_HOTEL
+cinematog->IDA
+cinematog->MR_TURNER
+cinematog->UNBROKEN
+
+
+costume->GRAND_BUDAPEST_HOTEL
+costume->INHERENT_VICE
+costume->INTO_WOODS
+costume->MALEFICENT
+costume->MR_TURNER
+
+
+directing->BIRDMAN
+directing->BOYHOOD
+directing->FOXCATCHER
+directing->GRAND_BUDAPEST_HOTEL
+directing->IMITATION_GAME
+
+
+editing->AMERICAN_SNIPER
+editing->BOYHOOD
+editing->GRAND_BUDAPEST_HOTEL
+editing->IMITATION_GAME
+editing->WHIPLASH
+
+
+makeup->FOXCATCHER
+makeup->GRAND_BUDAPEST_HOTEL
+makeup->GUARDIANS_OF_GALAXY
+
+
+score->GRAND_BUDAPEST_HOTEL
+score->IMITATION_GAME
+score->INTERSTELLAR
+score->MR_TURNER
+score->THEORY_OF_EVERYTHING
+
+
+song->LEGO_MOVIE
+song->SELMA
+song->BEYOND_LIGHTS
+song->GLEN_CAMPBELLI’LL_BE_ME
+song->BEGIN_AGAIN
+
+
+design->GRAND_BUDAPEST_HOTEL
+design->IMITATION_GAME
+design->INTERSTELLAR
+design->INTO_WOODS
+design->MR_TURNER
+
+
+sound_editing->AMERICAN_SNIPER
+sound_editing->BIRDMAN
+sound_editing->HOBBIT:_BATTLE_OF_FIVE_ARMIES
+sound_editing->INTERSTELLAR
+sound_editing->UNBROKEN
+
+
+sound_mixing->AMERICAN_SNIPER
+sound_mixing->BIRDMAN
+sound_mixing->INTERSTELLAR
+sound_mixing->UNBROKEN
+sound_mixing->WHIPLASH
+
+
+effects->CAPTAIN_AMERICA:_WINTER_SOLDIER
+effects->DAWN_OF_PLANET_OF_APES
+effects->GUARDIANS_OF_GALAXY
+effects->INTERSTELLAR
+effects->XMEN:_DAYS_OF_FUTURE_PAST
+
+
+adapted->AMERICAN_SNIPER
+adapted->IMITATION_GAME
+adapted->INHERENT_VICE
+adapted->THEORY_OF_EVERYTHING
+adapted->WHIPLASH
+
+
+original->BIRDMAN
+original->BOYHOOD
+original->FOXCATCHER
+original->GRAND_BUDAPEST_HOTEL
+original->NIGHTCRAWLER
+
+}
