@@ -1,135 +1,130 @@
 digraph {
-picture->AMERICAN_SNIPER
-picture->BIRDMAN
-picture->BOYHOOD
-picture->GRAND_BUDAPEST_HOTEL
-picture->IMITATION_GAME
-picture->SELMA
-picture->THEORY_OF_EVERYTHING
-picture->WHIPLASH
+overlap=scale;
+splines=true;
+
+picture->AMERICAN_SNIPER;
+picture->BIRDMAN;
+picture->BOYHOOD;
+picture->GRAND_BUDAPEST_HOTEL;
+picture->IMITATION_GAME;
+picture->SELMA;
+picture->THEORY_OF_EVERYTHING;
+picture->WHIPLASH;
 
 
-actor->FOXCATCHER
-actor->AMERICAN_SNIPER
-actor->IMITATION_GAME
-actor->BIRDMAN
-actor->theory_of_everything
+actor->FOXCATCHER;
+actor->AMERICAN_SNIPER;
+actor->IMITATION_GAME;
+actor->BIRDMAN;
+actor->THEORY_OF_EVERYTHING;
 
 
-supporting_actor->JUDGE
-supporting_actor->BOYHOOD
-supporting_actor->BIRDMAN
-supporting_actor->FOXCATCHER
-supporting_actor->WHIPLASH
+supporting_actor->JUDGE;
+supporting_actor->BOYHOOD;
+supporting_actor->BIRDMAN;
+supporting_actor->FOXCATCHER;
+supporting_actor->WHIPLASH;
 
 
-actress->TWO_DAYS,_ONE_NIGHT
-actress->THEORY_OF_EVERYTHING
-actress->STILL_ALICE
-actress->GONE_GIRL
-actress->WILD
+actress->TWO_DAYS_ONE_NIGHT;
+actress->THEORY_OF_EVERYTHING;
+actress->STILL_ALICE;
+actress->GONE_GIRL;
+actress->WILD;
 
 
-supporting_actress->BOYHOOD
-supporting_actress->WILD
-supporting_actress->IMITATION_GAME
-supporting_actress->BIRDMAN
-supporting_actress->into_the_woods
+supporting_actress->BOYHOOD;
+supporting_actress->WILD;
+supporting_actress->IMITATION_GAME;
+supporting_actress->BIRDMAN;
+supporting_actress->INTO_WOODS;
+
+cinematog->BIRDMAN;
+cinematog->GRAND_BUDAPEST_HOTEL;
+cinematog->IDA;
+cinematog->MR_TURNER;
+cinematog->UNBROKEN;
 
 
-animated->BIG_HERO_6
-animated->BOXTROLLS
-animated->HOW_TO_TRAIN_YOUR_DRAGON_2
-animated->SONG_OF_SEA
-animated->TALE_OF_PRINCESS_KAGUYA
+costume->GRAND_BUDAPEST_HOTEL;
+costume->INHERENT_VICE;
+costume->INTO_WOODS;
+costume->MALEFICENT;
+costume->MR_TURNER;
 
 
-cinematog->BIRDMAN
-cinematog->GRAND_BUDAPEST_HOTEL
-cinematog->IDA
-cinematog->MR_TURNER
-cinematog->UNBROKEN
+directing->BIRDMAN;
+directing->BOYHOOD;
+directing->FOXCATCHER;
+directing->GRAND_BUDAPEST_HOTEL;
+directing->IMITATION_GAME;
 
 
-costume->GRAND_BUDAPEST_HOTEL
-costume->INHERENT_VICE
-costume->INTO_WOODS
-costume->MALEFICENT
-costume->MR_TURNER
+editing->AMERICAN_SNIPER;
+editing->BOYHOOD;
+editing->GRAND_BUDAPEST_HOTEL;
+editing->IMITATION_GAME;
+editing->WHIPLASH;
 
 
-directing->BIRDMAN
-directing->BOYHOOD
-directing->FOXCATCHER
-directing->GRAND_BUDAPEST_HOTEL
-directing->IMITATION_GAME
+makeup->FOXCATCHER;
+makeup->GRAND_BUDAPEST_HOTEL;
+makeup->GUARDIANS_OF_GALAXY;
 
 
-editing->AMERICAN_SNIPER
-editing->BOYHOOD
-editing->GRAND_BUDAPEST_HOTEL
-editing->IMITATION_GAME
-editing->WHIPLASH
+score->GRAND_BUDAPEST_HOTEL;
+score->IMITATION_GAME;
+score->INTERSTELLAR;
+score->MR_TURNER;
+score->THEORY_OF_EVERYTHING;
 
 
-makeup->FOXCATCHER
-makeup->GRAND_BUDAPEST_HOTEL
-makeup->GUARDIANS_OF_GALAXY
+song->LEGO_MOVIE;
+song->SELMA;
+song->BEYOND_LIGHTS;
+song->GLEN_CAMPBELLI’LL_BE_ME;
+song->BEGIN_AGAIN;
 
 
-score->GRAND_BUDAPEST_HOTEL
-score->IMITATION_GAME
-score->INTERSTELLAR
-score->MR_TURNER
-score->THEORY_OF_EVERYTHING
+design->GRAND_BUDAPEST_HOTEL;
+design->IMITATION_GAME;
+design->INTERSTELLAR;
+design->INTO_WOODS;
+design->MR_TURNER;
 
 
-song->LEGO_MOVIE
-song->SELMA
-song->BEYOND_LIGHTS
-song->GLEN_CAMPBELLI’LL_BE_ME
-song->BEGIN_AGAIN
+sound_editing->AMERICAN_SNIPER;
+sound_editing->BIRDMAN;
+sound_editing->HOBBIT_BATTLE_OF_FIVE_ARMIES;
+sound_editing->INTERSTELLAR;
+sound_editing->UNBROKEN;
 
 
-design->GRAND_BUDAPEST_HOTEL
-design->IMITATION_GAME
-design->INTERSTELLAR
-design->INTO_WOODS
-design->MR_TURNER
+sound_mixing->AMERICAN_SNIPER;
+sound_mixing->BIRDMAN;
+sound_mixing->INTERSTELLAR;
+sound_mixing->UNBROKEN;
+sound_mixing->WHIPLASH;
 
 
-sound_editing->AMERICAN_SNIPER
-sound_editing->BIRDMAN
-sound_editing->HOBBIT:_BATTLE_OF_FIVE_ARMIES
-sound_editing->INTERSTELLAR
-sound_editing->UNBROKEN
+effects->CAPTAIN_AMERICA_WINTER_SOLDIER;
+effects->DAWN_OF_PLANET_OF_APES;
+effects->GUARDIANS_OF_GALAXY;
+effects->INTERSTELLAR;
+effects->XMEN_DAYS_OF_FUTURE_PAST;
 
 
-sound_mixing->AMERICAN_SNIPER
-sound_mixing->BIRDMAN
-sound_mixing->INTERSTELLAR
-sound_mixing->UNBROKEN
-sound_mixing->WHIPLASH
+adapted->AMERICAN_SNIPER;
+adapted->IMITATION_GAME;
+adapted->INHERENT_VICE;
+adapted->THEORY_OF_EVERYTHING;
+adapted->WHIPLASH;
 
 
-effects->CAPTAIN_AMERICA:_WINTER_SOLDIER
-effects->DAWN_OF_PLANET_OF_APES
-effects->GUARDIANS_OF_GALAXY
-effects->INTERSTELLAR
-effects->XMEN:_DAYS_OF_FUTURE_PAST
-
-
-adapted->AMERICAN_SNIPER
-adapted->IMITATION_GAME
-adapted->INHERENT_VICE
-adapted->THEORY_OF_EVERYTHING
-adapted->WHIPLASH
-
-
-original->BIRDMAN
-original->BOYHOOD
-original->FOXCATCHER
-original->GRAND_BUDAPEST_HOTEL
-original->NIGHTCRAWLER
+original->BIRDMAN;
+original->BOYHOOD;
+original->FOXCATCHER;
+original->GRAND_BUDAPEST_HOTEL;
+original->NIGHTCRAWLER;
 
 }
