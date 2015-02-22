@@ -1,0 +1,2 @@
+neato -Tpng oscars2015.dot >  neat.png
+dot -Tpng oscars2015.dot > oscars2015.png
